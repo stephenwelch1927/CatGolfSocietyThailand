@@ -1,5 +1,5 @@
 
-import Golf from "../public/golf.jpg";
+import Golf from "../public/golf.png";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -41,6 +41,11 @@ const Navbar = () => {
               </a>
             </div>
           </div>
+          <div className="relative left-10">
+            <p class="peer px-5 py-2 hover:bg-gray-300 text-slate-950 text-xl">
+            Tournaments |
+            </p>
+            </div>
         </div>
       </nav>
       <div className="h-6 bg-slate-900"></div>
