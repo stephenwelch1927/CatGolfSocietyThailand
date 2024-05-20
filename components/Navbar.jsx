@@ -2,11 +2,18 @@
 import Golf from "../public/golf.png";
 import Image from "next/image";
 import Link from "next/link";
+import { MdOutlinePhone } from "react-icons/md";
 
 
 const Navbar = () => {
   return (
     <div>
+      <header className="relative w-full h-20 bg-slate-800">
+        <div className="flex items-center top-3">
+      <MdOutlinePhone size={50} className="flex fill-white"/>
+      </div>
+      <p className="text-white ml-12">+66 801567162</p>
+      </header>
       <nav className="relative w-full h-25 bg-gray-200">
         <div className="flex items-center h-full w-full px-4 2xl:px-16">
           <Link href="/">
